@@ -1,0 +1,42 @@
+.push
+    - pushs a value onto an array at the end
+    
+.pop
+    - takes the last value out of an array
+    
+.splice
+    - use to remove, add, or  both
+    
+.unshift
+    - add to begining of the array
+    
+.shift
+    - remove from begining of array
+
+
+for( ) {
+var shortDay = days[i].replace('day', '')
+}
+console.log(shortDay);
+
+
+.toUppercase
+    -var hello = "hello";
+    -var up = hello.toUppercase;
+    -console.log(up);
+
+
+.split
+    -var weekString = 'Monday Tuesday Wednesday'
+    -var weekArray = weekString.split(' ')
+    -turns a sting into an array
+    
+.join
+    -turns a array into a string
+    
+scope
+    -an area in your code where some set of var is accessible
+    
+
+    
+    

@@ -1,0 +1,22 @@
+A programming language is a language that lets you give instructions to a computer.
+
+In English, we write SENTENces, composed of words, which have types (noun, verb)
+in js, we write statements, composed (mostly) of values, which have toyes (number, string).
+
+
+Primitive types: Number, String, Boolean, null, and undefined.
+
+Numbers: 
+    - number literal - single most straightford way to represent a number
+
+Operator: lets you combine 1 (unary) 
+
+
+String Literal:
+'don\'t' slash tells the computer the ' is a character
+
+properties:
+    -values can have values
+    -ex. greeting.length finds properties of greeting
+    
+v   
