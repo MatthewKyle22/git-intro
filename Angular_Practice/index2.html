@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html ng-app='myApp'>
+    <head>
+        <meta charset ='utf-8'>
+        <title>Ang. Directives Practice</title>
+        <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.5.4/angular.js"></script>
+    </head>
+    <body ng-controller='myController'ng-init="num = 5; students=['Matt', 'Garrett', 'Emily']">
+        <!--{{students[0] }}-->
+        <!--{{ students }}-->
+        <input type='text' ng-model='name'>
+        <h3> {{ name }}</h3>
+        <div ng-repeat='s in students'>
+            
+        <script type="text/javascript" src="mains2.js"></script>
+        </div>
+    </body>
+</html>
