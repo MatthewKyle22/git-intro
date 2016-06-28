@@ -1,6 +1,7 @@
 angular.module('itinHelper', ['ui.router'])
     .config(Config);
     
+//******Router Function*******
 function Config($stateProvider, $urlRouterProvider) {
     $stateProvider
         //add .states for each html page

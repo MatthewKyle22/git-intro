@@ -6,38 +6,47 @@ function calendarC(Storage) {
     
     self.showConfig;
     
-    self.name = "Cox";
+    // self.name = "Stevens";
     
     self.cal = Storage.get('calendar') || [
         {
-            breakfast: 'Cafe Mickey',
-            lunch: 'Momma Melrose',
-            dinner: 'Tepan edo'
-        },
-        {
-            breakfast: 'Cafe Mickey2',
-            lunch: 'Momma Melrose2',
-            dinner: 'Tepan edo2'
-        },
-        {
-            breakfast: 'Cafe Mickey3',
-            lunch: 'Momma Melrose3',
-            dinner: 'Tepan edo3'
-        }    
+            Breakfast: 'Cafe Mickey',
+            Morning: 'Epcot',
+            Lunch: 'Quick Service',
+            Afternoon: 'Magic Kingdom',
+            Dinner: 'Ohana',
+            Evening: 'Fireworks'
+        }
     ];
     
+    
+    
+    // adds row object
     self.add = function() {
         self.cal.push({
-            breakfast: 'Hello',
-            lunch: 'world',
-            dinner: 'dinner'
+            Breakfast: 'Cafe Mickey',
+            Morning: 'Epcot',
+            Lunch: 'Quick Service',
+            Afternoon: 'Magic Kingdom',
+            Dinner: 'Ohana',
+            Evening: 'Fireworks'
         });
-    }
+    };
     
     
+    //removes row selected
+    self.remove = function (index) {
+        self.cal.splice(index, 1);
+        self.showConfig = null;
+    };
     
+     // pushing keys to store in local storage
     self.email = function() {
         Storage.set('calendar', self.cal);
-    }
+    };
     
 }
+
+
+
+// var tableCreedits = ['Be Our Guest', 'Casey\'s Corner', 'Cinderella\'s Royal Table', 'Columbia Harbour House', 'Cosmic Ray\'s Starlight Cafe', 'Frontierland Hot Dog Cart', 'Golden Oak Outpost', 'Skipper Cateen', 'Liberty Tree', 'Crystal Palace', 'The Plaza', '']
